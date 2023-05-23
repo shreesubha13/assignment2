@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+</head>
+<body>
+    <h2>1) List out the features of HTML5</h2>
+    <ol>
+        <li>Audio and Video support</li>
+        <li>Linkable</li>
+        <li>Platform Independent</li>
+        <li>Header and Footer</li>
+        <li>Figure and Figcaption</li>
+        <li>Support for Dynamic pages</li>
+        <li>Canvas in HTML5</li>
+        <li>Regular Expressions</li>
+    </ol>
+    <h2>2) What are HTML entities? List out 5</h2>
+    <p>An HTML entity is a piece of text("string") that begins with an ampersand(&) and ends with a semicolon(;). Entities are frequently
+        used to display reserved characters and invisible characters.</p>
+    <h3>List out 5 HTML entities</h3>
+    <ul style="list-style-type: circle;">
+        <li>Less than - &lt;</li>
+        <li>Greater than - &gt;</li>
+        <li>Ampersand - &amp;</li>
+        <li>Copyright - &copy;</li>
+        <li>Registered trademark - &reg;</li>
+    </ul>
+    <h2>3) What is Web accessbility? List some of the assistive device which play a major role in providing accessibility.</h2>
+    <p>Web accessibility means that websites, tools, and technologies are designed and developed so that people with 
+        disabilities can use them.
+    </p>
+    <h3>Some of Assistive device</h3>
+    <ol>
+        <li>Magnifiers</li>
+        <li>Voice Recognition</li>
+        <li>Speech Recognition</li>
+        <li>Text to speech software</li>
+        <li>Screen readers</li>
+        <li>braille</li>
+    </ol>
+    <h2>4) List any 3 ways which help us in improving the accessibility of HTML</h2>
+    <ol>
+        <li>Headings are Important</li>
+        <li>Semantic HTML</li>
+        <li>Declare the language</li>
+        <li>Create good link text</li>
+    </ol>
+    <h2>5) Short note on tabindex</h2>
+    <p>
+        The tabindex global attribute allows developers to make HTML elements focusable, allow or prevent them from being sequentially
+        focusable and determine their relative ordering for sequential focus navigation. 
+        tabindex = "-1" removes the element from the navigation sequence, but can be made focusable using javascript.
+    </p>
+    <h2>6)List any 5 semantic tag in HTML along with their descriptions.</h2>
+    <ol>
+        <li>Section</li>
+        <p>The section element defines a section in a document. Examples of where a section element can be used:
+            <ul style="list-style-type: disc;">
+                <li>Chapters</li>
+                <li>Introduction</li>
+                <li>News items</li>
+                <li>Contact information</li>
+            </ul>
+        </p>
+        <li>Article</li>
+        <p>The article element specifies independent, self-contained content. an article should make sense on its own, and it should be
+            possible to distribute it independently from the rest of the web site.
+        </p>
+        <li>Header</li>
+        <p>The header element represents a container for introductory content or a set of navigational links.</p>
+        <li>Footer</li>
+        <p>The footer element defines a footer for a document or section.</p>
+        <li>Figure and Figurecaption</li>
+        <p>The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</p>
+        <p>The figcaption tag defines a caption for a figure element. The figcaption element can be placed as the first or as the last child of a figure element.</p>
+    </ol>
+    <h2>7)What are the benefits of semantic tags</h2>
+    <ul>
+        <li>The semantic HTML tags help the search engine and other user devices to determine the importance and context of web pages.</li>
+        <li>The pages made with semantic elements are much easier to read.</li>
+        <li>It has greater accessibility. It offers a better user experience.</li>
+    </ul>
+    <h2>9) Create a simple webpage which has a table. The table must have 2 columns HTML and HTML5</h2>
+    <table border="1">
+        <tr>
+            <th>HTML</th>
+            <th>HTML5</th>
+        </tr>
+        <tr>
+            <td>
+             1. Major markup language used to display web pages on the internet.
+            </td>
+            <td>Major revision of HTML for describing the content and appearance of web page.</td>
+        </tr>
+        <tr>
+            <td>2.Supports vector graphics using other technologies or plugins.</td>
+            <td>vector graphics are an integral part.</td>
+        </tr>
+        <tr>
+            <td>3.Offline storage support is not good.</td>
+            <td>Offline storage support is good.</td>
+        </tr>
+    </table>
+    <h2>10)Create a simple web page with a form for a user to enter their personal information. </h2>
+    <form>
+        <label for="First name">Enter your first name:</label>
+        <input type="text" tabindex="2" id="First name" placeholder="First name"><br><br>
+        <label for="Last name">Enter your last name:</label>
+        <input type="text" tabindex="1" id="Last name" placeholder="Last name"><br><br>
+        <label for="usermail">Enter your email:</label>
+        <input type="email" tabindex="4" id="usermail" placeholder="Enter your email"><br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
